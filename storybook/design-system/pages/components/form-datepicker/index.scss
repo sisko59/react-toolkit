@@ -1,0 +1,33 @@
+@import '@axa-fr/react-toolkit-core/src/common/scss/core.scss';
+@import '~@axa-fr/react-toolkit-all/dist/style/bootstrap/grid.css';
+@import '@axa-fr/react-toolkit-form-core/dist/form.scss';
+@import '@axa-fr/react-toolkit-form-input-date/dist/datepicker.scss';
+@import '../../../assets/scss/variables.scss';
+
+/* Style just for demo */
+
+.#{$prefix}-demo{
+  &__display{
+    &--fullscreen{
+      .#{$prefix}-demo{
+        &__template{
+          &--formdatepicker{
+            margin: 2em;
+          }
+        }
+      }
+    }
+  }
+  &__template{
+    &--formdatepicker{
+      background: $white;
+      padding: 1em;
+    }
+  }
+}
+
+
+
+.af-datepicker{
+  line-height: 1.5;
+}

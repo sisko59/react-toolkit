@@ -1,0 +1,7 @@
+extends ../../../../layouts/layout-form-card-group
+include ../../../../mixins/mixin-form-field-card
+
+block input
+  +formFieldCardGroup({meta:"Recommandé", active:true, title: "Franchisés standard"})
+    +formFieldCard({name:'group2', modifier:'active', type:"radio", active:true, id: "2"})
+    +formFieldCard({name:'group2', type:"radio", id: "3"})

@@ -1,0 +1,19 @@
+@import '@axa-fr/react-toolkit-core/src/common/scss/core.scss';
+@import '@axa-fr/react-toolkit-alert/dist/alert.scss';
+
+@import '../../../assets/scss/variables.scss';
+
+
+/* TODO  A reporter sur le toolkit */
+
+.af-alert{
+  &__content{
+    .af-alert{
+      &__content{
+        &__right{
+          padding-bottom: 1em;
+        }
+      }
+    }
+  }
+}

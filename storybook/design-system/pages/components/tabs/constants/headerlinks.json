@@ -1,0 +1,8 @@
+{
+  "github": "https://github.com/AxaGuilDEv/react-toolkit/blob/master/packages/tabs/README.md",
+  "storybook": "https://axaguildev.github.io/react-toolkit/latest/storybook/?selectedKind=Tabs&selectedStory=Default&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs",
+  "npm": {
+    "src": "https://camo.githubusercontent.com/b8fd7edf7c5a47d22ee1b28c6c68356416b266f5/68747470733a2f2f62616467652e667572792e696f2f6a732f2534306178612d667225324672656163742d746f6f6c6b69742d746162732e737667",
+    "href": "https://badge.fury.io/js/%40axa-fr%2Freact-toolkit-tabs"
+  }
+}

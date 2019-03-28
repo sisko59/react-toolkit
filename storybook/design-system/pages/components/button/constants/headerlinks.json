@@ -1,0 +1,8 @@
+{
+  "github": "https://github.com/AxaGuilDEv/react-toolkit/tree/master/packages/button",
+  "storybook": "https://axaguildev.github.io/react-toolkit/latest/storybook/?selectedKind=Button&selectedStory=Simple%20button&full=0&addons=1&stories=1&panelRight=1&addonPanel=REACT_STORYBOOK%2Freadme%2Fpanel",
+  "npm": {
+    "src": "https://badge.fury.io/js/%40axa-fr%2Freact-toolkit-button.svg",
+    "href": "https://badge.fury.io/js/%40axa-fr%2Freact-toolkit-button"
+  }
+}

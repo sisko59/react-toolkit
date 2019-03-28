@@ -1,0 +1,8 @@
+{
+  "github": "https://github.com/AxaGuilDEv/react-toolkit/blob/master/packages/popover/README.md",
+  "storybook": "https://axaguildev.github.io/react-toolkit/latest/storybook/?selectedKind=Popover&selectedStory=Popover&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs",
+  "npm": {
+    "src": "https://camo.githubusercontent.com/a08dfe4e0fa544af86bb71c813e0eded8852776b/68747470733a2f2f62616467652e667572792e696f2f6a732f2534306178612d667225324672656163742d746f6f6c6b69742d706f706f7665722e737667",
+    "href": "https://badge.fury.io/js/%40axa-fr%2Freact-toolkit-popover"
+  }
+}

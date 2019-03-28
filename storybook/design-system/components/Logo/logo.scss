@@ -1,0 +1,66 @@
+@import '../../assets/scss/variables.scss';
+
+.#{$prefix} {
+  &-logo {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid $color-gray-2;
+    padding: 0.5rem;
+    &__img {
+      width: 40px;
+      height: 40px;
+      margin-right: 1em;
+    }
+    &__name {
+      font-family: $publico;
+      font-style: italic;
+      font-size: 1.4rem;
+      color: $color-axa;
+      transform: skewX(-19deg) translateX(0.1em);
+      font-weight: 600;
+      position: relative;
+      display: inline-flex;
+      &:after{
+        content: "®";
+        position: absolute;
+        right: -.4em;
+        bottom: 0;
+        transform: skewX(19deg);
+        font-family: $font-family-base;
+        font-size: 0.4em;
+      }
+    }
+    &__subtitle {
+      font-size: 1.3rem;
+      font-weight: 100;
+    }
+    &--header {
+      margin-left: 3em;
+      border-bottom: 0;
+      border-left: 1px solid $color-mercury;
+      padding-left: 1rem;
+    }
+    &--home-intro {
+      position: absolute;
+      top: 9%;
+      left: 9%;
+      border-bottom: 0;
+      margin: 0;
+      .#{$prefix} {
+        &-logo {
+          &__img {
+            width: 200px;
+            height: 200px;
+          }
+          &__name {
+            font-size: 7rem;
+            color: $white;
+          }
+          &__subtitle {
+            font-size: 3rem;
+          }
+        }
+      }
+    }
+  }
+}

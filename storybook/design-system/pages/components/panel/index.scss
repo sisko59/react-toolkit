@@ -1,0 +1,26 @@
+@import '@axa-fr/react-toolkit-core/src/common/scss/core.scss';
+@import '@axa-fr/react-toolkit-badge/dist/badge.scss';
+@import '@axa-fr/react-toolkit-panel/dist/panel.scss';
+
+@import '../../../assets/scss/variables.scss';
+
+/* Style just for demo */
+
+.#{$prefix}-demo{
+  &__display{
+    &--fullscreen{
+      .#{$prefix}-demo{
+        &__template{
+          &--panel{
+            margin: 2em;
+          }
+        }
+      }
+    }
+  }
+  &__template{
+    &--panel{
+      width: 400px;
+    }
+  }
+}

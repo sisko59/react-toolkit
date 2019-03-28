@@ -1,0 +1,14 @@
+extends ../../../../layouts/layout-form-textarea
+include ../../../../mixins/mixin-form-field-radio
+include ../../../../mixins/mixin-form-message
+
+block label
+  label.af-form__group-label Custom radio
+
+block input
+  +formFieldRadio({className:'af-form__radio-custom', id:"21", name:"classic-custom-error", label: "Radio 1", modifier:'error'})
+  +formFieldRadio({className:'af-form__radio-custom', id:"22", name:"classic-custom-error", label: "Radio 2", modifier:'error'})
+  +formFieldRadio({className:'af-form__radio-custom', id:"23", name:"classic-custom-error", label: "Radio 3", modifier:'error'})
+  +formFieldRadio({className:'af-form__radio-custom', id:"24", name:"classic-custom-error", label: "Radio 4", modifier:'error'})
+  +formMessage({modifierMessage: 'error', textMessage:"Message d'erreur", iconMessage: 'exclamation-sign'})
+

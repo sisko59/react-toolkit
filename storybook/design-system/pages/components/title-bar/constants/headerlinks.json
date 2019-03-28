@@ -1,0 +1,8 @@
+{
+  "github": "https://github.com/AxaGuilDEv/react-toolkit/tree/master/packages/Layout/header/src/Title",
+  "storybook": "https://axaguildev.github.io/react-toolkit/latest/storybook/?selectedKind=Layout.Header.Title&selectedStory=Default&full=0&addons=1&stories=1&panelRight=1&addonPanel=REACT_STORYBOOK%2Freadme%2Fpanel",
+  "npm": {
+    "src": "https://badge.fury.io/js/%40axa-fr%2Freact-toolkit-layout-header.svg",
+    "href": "https://badge.fury.io/js/%40axa-fr%2Freact-toolkit-layout-header"
+  }
+}

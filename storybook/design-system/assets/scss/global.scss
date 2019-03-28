@@ -1,0 +1,159 @@
+@import '../css/reset.css';
+@import '../css/normalize.css';
+@import '../css/fonts.css';
+@import './variables.scss';
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+body{
+  line-height: inherit;
+}
+ol,ul{
+  list-style: inherit;
+}
+
+iframe {
+  width: 100%;
+}
+
+html {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  color: $color-texte;
+  letter-spacing: 0.01em;
+  min-width: 320px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+  color: $color-axa;
+  &:hover {
+    text-decoration: underline;
+  }
+  &:focus {
+    color: $color-burnt-sienna;
+  }
+}
+
+.#{$prefix} {
+  &-page {
+    &__header {
+      background: $color-page-header;
+      padding: 3em 1em 3em 30px;
+      h1 {
+        font-size: 2.5rem;
+      }
+      h1,
+      h2,
+      h3 {
+        margin-top: 0;
+        color: $white;
+        font-family: $publico;
+      }
+      p {
+        color: $white;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+      }
+    }
+    &__content {
+      padding: 2em 30px;
+
+      .hljs {
+        padding: 1em;
+        min-height: 100%;
+      }
+      .hljs-tag {
+        line-height: 2rem;
+      }
+
+      .react {
+        &-tabs {
+          &__tab {
+            font-size: 1.3rem;
+            margin: 0 1.5rem;
+            &:first-child {
+              margin-left: 0;
+            }
+            &:focus {
+              border: 3px solid $color-azur;
+              outline: none;
+              box-shadow: none;
+              &:after {
+                display: none;
+              }
+            }
+            &--selected {
+              background: inherit;
+              border-radius: inherit;
+              color: $color-axa;
+              border: 0;
+              border-bottom: 3px solid $color-axa;
+            }
+            &-list {
+              margin: 0;
+            }
+          }
+        }
+      }
+
+    }
+    &__links {
+      padding: 1em 1em 1em 30px;
+      background: $color-mercury;
+    }
+    &__info{
+      blockquote {
+        margin: 2rem 2rem 0 2rem ;
+        padding: 1rem;
+        background: $color-axa-light;
+      }
+      .af-alert--cmpt{
+        margin: 1rem;
+      }
+    }
+  }
+  &-slash {
+    font-family: $publico;
+    font-weight: 600;
+    transform: skewX(-19deg);
+    position: relative;
+    display: inline-flex;
+    &:after{
+      content: "®";
+      position: absolute;
+      right: -.4em;
+      bottom: 0;
+      font-family: $font-family-base;
+      font-size: 0.4em;
+      transform: skewX(19deg);
+    }
+  }
+  &-block-demo {
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding: 1em;
+    background: $white;
+  }
+}
+
+
+/* TODO A reporter sur le toolkit */
+
+.af-container {
+  @include make-container-max-widths();
+  padding: 0 2em;
+  margin: 0 auto;
+}

@@ -1,0 +1,8 @@
+{
+  "github": "https://github.com/AxaGuilDEv/react-toolkit/blob/master/packages/modal/boolean/README.md",
+  "storybook": "https://axaguildev.github.io/react-toolkit/latest/storybook/?selectedKind=Modal.Boolean&selectedStory=Default&full=0&addons=1&stories=1&panelRight=1&addonPanel=REACT_STORYBOOK%2Freadme%2Fpanel",
+  "npm": {
+    "src": "https://camo.githubusercontent.com/4c763f38e7e980e55f6df1a1c7f210000d82693f/68747470733a2f2f62616467652e667572792e696f2f6a732f2534306178612d667225324672656163742d746f6f6c6b69742d6d6f64616c2d626f6f6c65616e2e737667",
+    "href": "https://badge.fury.io/js/%40axa-fr%2Freact-toolkit-modal-boolean"
+  }
+}

@@ -1,0 +1,33 @@
+@import '@axa-fr/react-toolkit-core/src/common/scss/core.scss';
+@import '~@axa-fr/react-toolkit-all/dist/style/bootstrap/grid.css';
+
+@import 'pages/components/header/index.scss';
+@import 'pages/components/footer/index.scss';
+@import 'pages/components/form-select/index.scss';
+@import 'pages/components/steps/index.scss';
+@import 'pages/components/table/index.scss';
+
+@import '../../../assets/scss/variables.scss';
+
+/* Style just for demo */
+
+.#{$prefix}-demo{
+  &__display{
+    &--fullscreen{
+      .#{$prefix}-demo{
+        &__template{
+          &--layoutstable{
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+  &__template{
+    &--layoutstable{
+      background: $white;
+    }
+  }
+}
+
+

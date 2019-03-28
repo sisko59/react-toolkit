@@ -1,0 +1,8 @@
+{
+  "github": "https://github.com/AxaGuilDEv/react-toolkit/blob/master/packages/Form/Input/text/README.md",
+  "storybook": "https://axaguildev.github.io/react-toolkit/latest/storybook/?selectedKind=Form.Input.Text&selectedStory=TextInput&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybook%2Factions%2Factions-panel",
+  "npm": {
+    "src": "https://camo.githubusercontent.com/2d26750facf4ec1b255efa573895ab93d8a5846f/68747470733a2f2f62616467652e667572792e696f2f6a732f2534306178612d667225324672656163742d746f6f6c6b69742d666f726d2d696e7075742d746578742e737667",
+    "href": "https://badge.fury.io/js/%40axa-fr%2Freact-toolkit-form-input-text"
+  }
+}

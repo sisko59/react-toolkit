@@ -1,0 +1,8 @@
+extends ../../../../layouts/layout-form-card-group
+include ../../../../mixins/mixin-form-field-card
+
+block input
+  +formFieldCardGroup({ active:true, title: "Franchisés standard"})
+    +formFieldCard({type:"radio", id: "4"})
+    +formFieldCard({modifier:'active', type:"radio", active:true, id: "5"})
+    +formFieldCard({type:"radio", id: "6"})

@@ -1,0 +1,11 @@
+@import '../../assets/scss/variables.scss';
+
+.#{$prefix} {
+  &-download {
+    padding: 1em;
+    background: $color-axa;
+    color: $white;
+    &__title {
+    }
+  }
+}

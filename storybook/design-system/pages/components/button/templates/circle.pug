@@ -1,0 +1,18 @@
+.button-demo
+  button.af-btn-circle
+    span.af-btn__wrapper
+      i.glyphicon.glyphicon-info-sign
+  button.af-btn-circle.af-btn-circle--reverse
+    span.af-btn__wrapper
+      i.glyphicon.glyphicon-info-sign
+
+-var exemples = ["pushpin", "print", "arrow-xs-down", "heart", "eye-open", "menu-hamburger", "remove", "filter", "floppy-disk", "open"];
+
+.button-demo
+  each ex in exemples
+    a.af-btn-circle(href="#" role="button" )
+      i.glyphicon(class=`glyphicon-${ex}`)
+.button-demo
+  each ex in exemples
+    a.af-btn-circle--small(href="#" role="button" )
+      i.glyphicon(class=`glyphicon-${ex}`)

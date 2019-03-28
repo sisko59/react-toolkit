@@ -1,0 +1,53 @@
+@import '@axa-fr/react-toolkit-core/src/common/scss/core.scss';
+@import '@axa-fr/react-toolkit-title/dist/title.scss';
+@import '../../../assets/scss/variables.scss';
+
+/* Style just for demo */
+
+.#{$prefix}-demo{
+  &__display{
+    &--fullscreen{
+      .#{$prefix}-demo{
+        &__template{
+          &--title{
+            margin: 2em;
+          }
+        }
+      }
+    }
+  }
+  /* à reporter sur le toolkit */
+  &__template{
+    &--title{
+     background: $white;
+     padding: 2em;
+      p{
+       margin: 1rem 0;
+      }
+      h1{
+        font-size: 2.5rem;
+        margin: 0 0 2.5rem 0;
+      }
+      h2{
+        font-size: 2rem;
+        margin: 0 0 2rem 0;
+      }
+      h3{
+        font-size: 1.75rem;
+        margin: 0 0 1.75rem 0;
+      }
+      h4{
+        font-size: 1.5rem;
+        margin: 0 0 1.5rem 0;
+      }
+      h5{
+        font-size: 1.3rem;
+        margin: 0 0 1.3rem 0;
+      }
+      h6{
+        font-size: 1.1rem;
+        margin: 0 0 1.1rem 0;
+      }
+    }
+  }
+}

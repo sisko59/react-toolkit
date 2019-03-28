@@ -1,0 +1,14 @@
+@import '@axa-fr/react-toolkit-core/src/common/scss/core.scss';
+@import '~@axa-fr/react-toolkit-all/dist/style/bootstrap/grid.css';
+@import '@axa-fr/react-toolkit-layout-header/dist/Header/header.scss';
+@import '@axa-fr/react-toolkit-layout-header/dist/Name/name.scss';
+@import '@axa-fr/react-toolkit-layout-header/dist/Infos/infos.scss';
+@import '@axa-fr/react-toolkit-layout-header/dist/User/user.scss';
+@import '@axa-fr/react-toolkit-layout-header/dist/Logo/logo.scss';
+@import '@axa-fr/react-toolkit-layout-footer/dist/footer.scss';
+@import '@axa-fr/react-toolkit-layout-header/dist/NavBar/nav.scss';
+@import '@axa-fr/react-toolkit-layout-header/dist/Title/title-bar.scss';
+@import '@axa-fr/react-toolkit-table/dist/table.scss';
+@import '@axa-fr/react-toolkit-form-core/dist/form.scss';
+@import '@axa-fr/react-toolkit-form-steps/dist/step-form.scss';
+@import '@axa-fr/react-toolkit-form-input-select/dist/select.scss';

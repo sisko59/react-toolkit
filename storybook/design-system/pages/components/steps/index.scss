@@ -1,0 +1,21 @@
+@import '@axa-fr/react-toolkit-core/src/common/scss/core.scss';
+@import '@axa-fr/react-toolkit-form-steps/dist/step-form.scss';
+
+@import '../../../assets/scss/variables.scss';
+
+/* Style just for demo */
+
+.#{$prefix}-demo{
+  &__display{
+    &--fullscreen{
+      .#{$prefix}-demo{
+        &__template{
+          &--steps{
+            margin: 2em;
+          }
+        }
+      }
+    }
+  }
+ 
+}

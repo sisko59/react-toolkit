@@ -1,0 +1,8 @@
+extends ../../../../layouts/layout-form-field
+include ../../../../mixins/mixin-form-field-select
+
+block label
+  label.af-form__group-label(for="select1") Input Select *
+
+block input
+  +formFieldSelect({modifier: 'disabled', disabled: true})

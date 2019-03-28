@@ -1,0 +1,42 @@
+@import '@axa-fr/react-toolkit-core/src/common/scss/core.scss';
+@import '@axa-fr/react-toolkit-title/dist/title.scss';
+@import '@axa-fr/react-toolkit-button/dist/button.scss';
+@import '@axa-fr/react-toolkit-link/dist/link.scss';
+
+@import '../../../assets/scss/variables.scss';
+
+/* TODO 
+  => changer le nom de la class .af-btn--circle par .af-btn-circle
+  => changer le nom de la class .af-btn--circle-reverse par .af-btn-circle--reverse
+*/
+
+
+.af-btn-circle{
+  @extend .af-btn--circle;
+  cursor: pointer;
+}
+.af-btn-circle--reverse{
+  @extend .af-btn--circle-reverse;
+}
+.af-btn-circle--small{
+  @extend .af-btn--circle-small;
+}
+
+.af-btn {
+  font-weight: 400;
+}
+
+/* Just for demo *****************************************************/
+.af-btn {
+  margin: 0 1rem 1rem 0;
+}
+.button-demo {
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  padding: 1em;
+  background: $white;
+  .af-btn--circle {
+    margin: 0 1rem 1rem 0;
+  } 
+}

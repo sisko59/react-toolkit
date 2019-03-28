@@ -1,0 +1,8 @@
+{
+  "github": "https://github.com/AxaGuilDEv/react-toolkit/blob/master/packages/loader/README.md",
+  "storybook": "https://axaguildev.github.io/react-toolkit/latest/storybook/?selectedKind=Loader&selectedStory=Default&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs",
+  "npm": {
+    "src": "https://camo.githubusercontent.com/9e5ee02f31c973dc4494d554ed420ffbfeadc293/68747470733a2f2f62616467652e667572792e696f2f6a732f2534306178612d667225324672656163742d746f6f6c6b69742d6c6f616465722e737667",
+    "href": "https://badge.fury.io/js/%40axa-fr%2Freact-toolkit-loader"
+  }
+}

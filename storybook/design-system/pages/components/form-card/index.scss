@@ -1,0 +1,36 @@
+@import '@axa-fr/react-toolkit-core/src/common/scss/core.scss';
+@import '~@axa-fr/react-toolkit-all/dist/style/bootstrap/grid.css';
+@import '@axa-fr/react-toolkit-button/dist/button.scss';
+@import '@axa-fr/react-toolkit-form-core/dist/form.scss';
+@import '@axa-fr/react-toolkit-form-input-card/dist/card.scss';
+@import '@axa-fr/react-toolkit-form-input-checkbox/dist/checkbox.scss';
+@import '@axa-fr/react-toolkit-form-input-radio/dist/radio.scss';
+@import '../../../assets/scss/variables.scss';
+
+/* Style just for demo */
+
+.#{$prefix}-demo{
+  &__display{
+    &--fullscreen{
+      .#{$prefix}-demo{
+        &__template{
+          &--formcard{
+            margin: 2em;
+          }
+        }
+      }
+    }
+  }
+  &__template{
+    &--formcard{
+      background: $white;
+      padding: 1em;
+    }
+  }
+}
+
+/* Corrections à reporter sur le toolkit */
+
+.af-rccard{
+  flex: auto;
+}

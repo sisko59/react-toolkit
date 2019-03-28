@@ -1,0 +1,20 @@
+.af-form__group.row
+  .col-md-3
+    label.af-form__group-label(for="filebrowser2") Input File *
+  .col-md-9
+    .af-form__filebrowser
+      input.af-form__input-filebrowser( multiple id="filebrowser2" name="filebrowser2[]" type="file")
+      label.af-form__input-filebrowser-label(for="filebrowser2")
+        span.af-form__input-text Choisir un fichier
+        span.af-btn Choisir un fichier
+  .col-md-3
+  .col-md-9
+    ul.af-form__filebrowser__listFiles
+      li.af-form__filebrowser__file
+        span.glyphicon.glyphicon-ok-sign 
+        span.af-form__filebrowser__filename file 1
+        a.af-form__filebrowser__filedelete delete
+      li.af-form__filebrowser__file
+        span.glyphicon.glyphicon-remove-sign
+        span.af-form__filebrowser__filename file 2
+        a.af-form__filebrowser__filedelete delete

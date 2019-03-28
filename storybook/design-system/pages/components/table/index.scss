@@ -1,0 +1,44 @@
+@import '@axa-fr/react-toolkit-core/src/common/scss/core.scss';
+@import '@axa-fr/react-toolkit-button/dist/button.scss';
+@import '@axa-fr/react-toolkit-icon/dist/icons.scss';
+@import '@axa-fr/react-toolkit-status/dist/status.scss';
+@import '@axa-fr/react-toolkit-table/dist/table.scss';
+@import '@axa-fr/react-toolkit-table/dist/Pager/pager.scss';
+@import '@axa-fr/react-toolkit-table/dist/Paging/paging.scss';
+
+@import '../../../assets/scss/variables.scss';
+
+/* Style just for demo */
+
+.#{$prefix}-demo{
+  &__display{
+    &--fullscreen{
+      .#{$prefix}-demo{
+        &__template{
+          &--table{
+            margin: 2em;
+          }
+        }
+      }
+    }
+  }
+  .af-table__th--sortable{
+    vertical-align: middle;
+  }
+}
+
+/* A reporter sur le toolkit */
+
+.af-table{
+  table-layout: fixed;
+  &__th{
+    &--sortable{
+      vertical-align: middle;
+    }
+  }
+}
+.af-btn{
+  &--table-sorting{
+    font-weight: 400;
+  }
+}

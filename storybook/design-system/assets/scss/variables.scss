@@ -1,0 +1,45 @@
+@import '@axa-fr/react-toolkit-core/src/common/scss/core.scss';
+@import './mixins.scss';
+@import './functions.scss';
+
+$prefix: 'tk';
+
+/* Font */
+$font-family-base: 'Open Sans', sans-serif !default;
+$publico: 'Publico', 'Times New Roman', Times, serif !default;
+$font-size-base: 1.6rem !default;
+
+// stylelint-disable color-no-hex
+$color-flamingo-light: #ffd6cf;
+$color-axa-light: #e5e5f4;
+$color-page-header: #4975ba;
+$color-code-background: #282c34;
+
+// react-tabs
+$tab-border-color: #aaa !default;
+$tab-border-color--hover: null !default;
+$tab-border-color--selected: #024783 !default;
+$tab-border-color--selected--hover: null !default;
+$tab-bg-color: $color-silver !default;
+$tab-bg-color--hover: $tab-border-color !default;
+$tab-bg-color--selected: #0275d8 !default;
+$tab-bg-color--selected--hover: $tab-border-color--selected !default;
+$tab-color: null !default;
+$tab-color--hover: $tab-color !default;
+$tab-color--selected: $color-white !default;
+$tab-color--selected--hover: null !default;
+
+// Menu
+$menu-width: 300px;
+
+// Container max-width
+/* $sm : 540px;
+$md : 720px;
+$lg : 960px;
+$xl : 1140px;
+$container-max-widths: (
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+  xl: $xl
+) !default; */

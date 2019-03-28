@@ -1,0 +1,29 @@
+@import '@axa-fr/react-toolkit-core/src/common/scss/core.scss';
+@import '~@axa-fr/react-toolkit-all/dist/style/bootstrap/grid.css';
+@import '@axa-fr/react-toolkit-form-core/dist/form.scss';
+@import '@axa-fr/react-toolkit-form-input-textarea/dist/textarea.scss';
+@import '../../../assets/scss/variables.scss';
+
+/* Style just for demo */
+
+.#{$prefix}-demo{
+  &__display{
+    &--fullscreen{
+      .#{$prefix}-demo{
+        &__template{
+          &--formtextarea{
+            margin: 2em;
+          }
+        }
+      }
+    }
+  }
+  &__template{
+    &--formtextarea{
+      background: $white;
+      padding: 1em;
+    }
+  }
+}
+
+/* Corrections à reporter sur le toolkit */

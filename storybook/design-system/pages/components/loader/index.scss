@@ -1,0 +1,33 @@
+@import '@axa-fr/react-toolkit-core/src/common/scss/core.scss';
+@import '@axa-fr/react-toolkit-loader/dist/spinner.scss';
+@import '../../../assets/scss/variables.scss';
+
+/* Style just for demo */
+
+.#{$prefix}-demo{
+  &__display{
+    &--fullscreen{
+      .#{$prefix}-demo{
+        &__template{
+          &--panel{
+            margin: 2em;
+          }
+        }
+      }
+    }
+  }
+
+  &__template{
+    &--popover{
+      display: flex;
+      align-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 5rem;
+
+      .btn,
+      .af-btn {
+        margin: 3rem;
+      }
+    }
+  }
+}

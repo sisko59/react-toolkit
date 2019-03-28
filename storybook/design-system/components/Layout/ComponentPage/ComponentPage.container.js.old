@@ -1,0 +1,25 @@
+import { useState } from 'react';
+import { compose, withProps } from 'recompose';
+import ComponentPage from './ComponentPage.component';
+
+const withHeaderLinks = withProps(props => {
+  const [headerLinks] = useState({
+    github: '',
+    storybook: '',
+    npm: {
+      src: '',
+      href: ''
+    }
+  });
+  console.log('INIT Context', headerLinks);
+
+  return {
+    headerLinks
+  };
+});
+
+const enhance = compose(withHeaderLinks);
+const EnhancedComponentPage = enhance(ComponentPage);
+EnhancedComponentPage.displayName = 'WithContextComponent';
+
+export default EnhancedComponentPage;

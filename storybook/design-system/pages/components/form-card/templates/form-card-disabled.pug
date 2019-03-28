@@ -1,0 +1,6 @@
+extends ../../../../layouts/layout-form-card
+include ../../../../mixins/mixin-form-field-card
+
+block input
+  +formFieldCardGroup({})
+    +formFieldCard({modifier:'disabled', id: "1", disabled: true})

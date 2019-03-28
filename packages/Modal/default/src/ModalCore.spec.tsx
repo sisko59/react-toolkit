@@ -12,7 +12,7 @@ describe('<ModalCore>', () => {
   it('should invoke onOutsideTap when modal is close', () => {
     const onOutsideTap = jest.fn();
     const component = mount(<ModalCore isOpen={true} onOutsideTap={onOutsideTap}>Content</ModalCore>);
-    const event = jest.fn<React.MouseEvent>();
+    const event = jest.fn();
     component.find<ReactModal.Props>(ReactModal).prop('onRequestClose')(event());
     expect(onOutsideTap).toHaveBeenCalled();
   });

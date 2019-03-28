@@ -1,0 +1,8 @@
+{
+  "github": "https://github.com/AxaGuilDEv/react-toolkit/blob/master/packages/table/src/Pager/README.md",
+  "storybook": "https://axaguildev.github.io/react-toolkit/latest/storybook/?selectedKind=Table.Pager&selectedStory=Default&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybook%2Factions%2Factions-panel",
+  "npm": {
+    "src": "https://camo.githubusercontent.com/a494a4e4074746635f0f30701e6027ea0c44aa85/68747470733a2f2f62616467652e667572792e696f2f6a732f2534306178612d667225324672656163742d746f6f6c6b69742d7461626c652e737667",
+    "href": "https://badge.fury.io/js/%40axa-fr%2Freact-toolkit-table"
+  }
+}

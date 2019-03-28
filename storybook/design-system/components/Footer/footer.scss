@@ -1,0 +1,12 @@
+@import '../../assets/scss/variables.scss';
+
+.#{$prefix} {
+  &-footer {
+    padding: 1em 30px;
+    color: $white;
+    background: $color-azur;
+    &--opened {
+      padding-left: $menu-width + 30px;
+    }
+  }
+}

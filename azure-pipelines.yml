@@ -7,9 +7,12 @@ pool:
   vmImage: 'Ubuntu 16.04'
 
 steps:
+  - checkout: self
+    clean: true
+    persistCredentials: true
   - task: NodeTool@0
     inputs:
-      versionSpec: '8.x'
+      versionSpec: '12.x'
     displayName: 'Install Node.js'
 
   - task: jessehouwing.jessehouwing-vsts-variable-tasks.vsts-variable-transform.VariableTransformTask@1
@@ -42,7 +45,7 @@ steps:
         sonar.cfamily.build-wrapper-output.bypass=true
     condition: and(succeeded(), eq(variables['System.PullRequest.IsFork'], 'False'))
 
-  - script: npm i
+  - script: npm i && npm run bootstrap
     displayName: 'npm install'
 
   - script: npm ci --prefix storybook/storybook
